@@ -1,0 +1,35 @@
+
+.Cards {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Cards img {
+    position: relative;
+    margin-top: 3rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.Cards-content {
+    padding: 20px;
+}
+
+.Cards-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Cards-description {
+    font-size: 14px;
+    color: #666;
+}
